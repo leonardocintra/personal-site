@@ -6,7 +6,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ title }} | Leonardo</title>
-    <link rel="stylesheet" href="{% static 'css/foundation.min.css' %}">
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/foundation.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/foundation.icons.css' %}">
+
   </head>
   <body>
     
@@ -31,8 +34,8 @@
           </div>
           <div class="callout primary">
             <div class="row column">
-              <h1>Ola! Esse é meu site, com meus projetos e esta em construção.</h1>
-              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla.</p>
+              <h1>Ola! Esse é meu site!</h1>
+              <p class="lead">O site esta em construção. Ele terá meus sites e projetos. Pretendo também publicar algumas dicas de programção a artigos que considero úteis. Espero que gostem! ;)</p>
             </div>
           </div>
           <div class="row small-up-2 medium-up-3 large-up-4">
@@ -93,9 +96,9 @@
               <h3>Contate - me</h3>
               <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor.</p>
               <ul class="menu">
-                <li><a href="#">Dribbble</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Yo</a></li>
+                <li><a href="https://github.com/leonardocintra" target="_blank">Github</a></li>
+                <li><a href="https://www.facebook.com/leonardo.nascimentocintra" target="_blank">Facebook</a></li>
+                <li><a href="https://www.linkedin.com/in/leonardo-nascimento-cintra-630b6049" target="_blank">Linkedin</a></li>
               </ul>
             </div>
             <div class="medium-6 columns">
@@ -107,7 +110,7 @@
               </label>
               <label>
                 Mensagem
-                <textarea placeholder="Dia um ola pra mim...:D "></textarea>
+                <textarea placeholder="Mensagem... :) "></textarea>
               </label>
               <input type="submit" class="button expanded" value="Enviar">
             </div>
@@ -116,10 +119,11 @@
       </div>
     </div>
     
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="{% static 'js/vendor/foundation.js' %}"></script>
+    <script src="{% static 'js/jquery-2.1.4.min.js' %}"></script>
+    <script src="{% static 'js/foundation.js' %}"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <script type="text/javascript" src="{% static 'js/zcom.js' %}"></script>
   </body>
 </html>
-
-
-    

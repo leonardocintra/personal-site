@@ -1,8 +1,8 @@
-# Virtual Machines
+# Virtual Machines and Developers
 env/
 myvenv/
 venv/
-
+static_cdn/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

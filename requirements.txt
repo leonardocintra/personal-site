@@ -1,2 +1,7 @@
 dj-database-url==0.4.1
 Django==1.10.1
+gunicorn==19.6.0
+whitenoise==3.2.1
+
+# comments for local install 
+psycopg2==2.6.1

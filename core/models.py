@@ -1,5 +1,5 @@
 from django.db import models
-
+# from cloudinary.models import CloudinaryField 
 
 class Site(models.Model):
 	title = models.CharField('Titulo', max_length=120)

@@ -13,6 +13,10 @@ Meu Site pessoal, simples e informativo.
 ## Intalation
 
 ```
-python manage.py collectstatic
+git clone https://github.com/leonardocintra/personal-site.git
+virtualenv env -p python3
+source env/bin/activate
+pip install -r requirements.txt
+python manage.py runserver
 ```
 
